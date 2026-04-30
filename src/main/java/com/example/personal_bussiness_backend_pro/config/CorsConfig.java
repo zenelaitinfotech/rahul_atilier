@@ -22,7 +22,9 @@ public class CorsConfig {
             "http://localhost:5173",
             "http://localhost:3000",
             "http://localhost:8080",
-            "https://rahul-atilier-frontend.onrender.com"
+            "https://rahul-atilier-frontend.onrender.com",
+            "https://www.raahulsatelier.net",
+            "https://raahulsatelier.net"
         ));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
         config.setAllowedHeaders(List.of("*"));
